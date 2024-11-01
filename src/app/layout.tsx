@@ -1,6 +1,6 @@
+import "@/styles/globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
 import AuthProvider from "@/providers/AuthProvider";
 import { getLocale } from "next-intl/server";
 import IntlProvider from "@/providers/IntlProvider";
